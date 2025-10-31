@@ -13,21 +13,37 @@ Repositório com **ficheiros SQL** e **bases de dados** para prática de comando
 
 ## 📂 Estrutura do Repositório
 mysql-practice/
+
 ├─ README.md                    # Explicação do projeto
+
 ├─ scripts/                     # Ficheiros .sql com comandos e exercícios
+
 │ ├─ SQL_Sakila_Exercicios.sql
+
 │ ├─ northwind.sql
+
 │ ├─ hotel_boa_estadia.sql
+
 │ ├─ LojaTechStore.sql
+
 │ ├─ Operações SQL.sql
+
 │ ├─ notebook1.sql
+
 │ ├─ notebook2.sql
+
 │ ├─ notebook3.sql
+
 │ ├─ notebook4.sql
+
 │ └─ notebook5.sql
+
 └─ databases/                    # Bases de dados para importar e testar
+
   ├─ sakila.zip
+  
   ├─ bd northwind.zip
+  
   └─ BD Employees
 
 ---
@@ -51,8 +67,7 @@ mysql-practice/
 1. Descompactar as bases de dados (se necessário)
   
 2. Importar no MySQL usando linha de comando ou Workbench:
-```bash
-mysql -u username -p nome_da_base < caminho_para_o_ficheiro.sql
+- mysql -u username -p nome_da_base < caminho_para_o_ficheiro.sql
 
 3. Abrir os scripts .sql na ferramenta que preferir e executar queries
 
